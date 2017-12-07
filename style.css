@@ -6,7 +6,41 @@ body {
   background-color: aqua;
   display: flex;
 }
-.sidebar {
+.about h2 {
+  font-family: "Chela One", "cursive";
+}
+.about p {
+  width: 75%;
+  background-color: yellow;
+  margin: 15px auto;
+}
+.about {
+  font-size: 1.3em;
+  margin-left: 50px;
+  background-color: blue;
+}
+.right-sidebar {
+  background-color: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+}
+.right-sidebar a {
+  display: block;
+  color: darkblue;
+  text-decoration: none;
+  font-weight: 100;
+}
+.right-sidebar a:hover {
+  font-weight: 900;
+}
+.right-sidebar a:active {
+  position: relative;
+  top: 2px;
+}
+
+.left-sidebar {
   background-color: rgba(0, 0, 0, 0.85);
   text-align: center;
   width: 50px;
@@ -18,7 +52,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.sidebar nav {
+.left-sidebar nav {
   font-size: 20px;
   line-height: 50px;
 }
@@ -56,6 +90,7 @@ body {
 }
 .main {
   display: flex;
+  flex-direction: column;
   flex: 1;
   background-color: green;
   margin-left: 50px;
