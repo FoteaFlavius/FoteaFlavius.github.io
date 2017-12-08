@@ -6,15 +6,15 @@ body {
   background-color: aqua;
   display: flex;
 }
-.about h2 {
+.about-me h2 {
   font-family: "Chela One", "cursive";
 }
-.about p {
+.about-me p {
   width: 75%;
   background-color: yellow;
   margin: 15px auto;
 }
-.about {
+.about-me {
   font-size: 1.3em;
   margin-left: 50px;
   background-color: blue;
