@@ -117,7 +117,7 @@ body {
   font-family: "Indie Flower", "cursive";
   font-size: 55px;
 }
-#jsc {
+#promptName {
   text-align:center;
-  font-family:monospace;
+  font-family:"Indie Flower", "monospace";
 }

@@ -1,11 +1,26 @@
-var name = prompt ('What is your name?');
+var name = prompt("What is your name?");
 
-if (name != 0) {
-  document.getElementById("jsc").innerHTML = 'Welcome, ' + name + '!';
+document.getElementById('promptName').innerHTML = "Welcome, " + name + "!";
+
+
+function aboutMeCollapse() {
+
+var x = document.getElementById("about-me");
+
+if (x.style.display === "none") {
+    x.style.display = "block";
 } else {
-  document.getElementById("jsc").innerHTML = 'Welcome, stranger!'
+    x.style.display = "none";
+}
 }
 
-for(var ind = 0 ; ind < 10 ; ind++) {
-  return ind;
+function myWorkCollapse() {
+
+var x = document.getElementById("my-work");
+
+if (x.style.display === "none") {
+    x.style.display = "block";
+} else {
+    x.style.display = "none";
+}
 }
