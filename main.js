@@ -1,7 +1,12 @@
 var name = prompt("What is your name?");
 
-document.getElementById('promptName').innerHTML = "Welcome, " + name + "!";
 
+
+if (name === "" || name === "null" || name === " ") {
+    document.getElementById('promptName').innerHTML = "Welcome, anonymous!"
+} else {
+    document.getElementById('promptName').innerHTML = "Welcome, " + name + "!";
+}
 
 function aboutMeCollapse() {
 
